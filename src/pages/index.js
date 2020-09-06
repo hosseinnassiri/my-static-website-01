@@ -22,7 +22,7 @@ export default ({ data }) => {
         />
         {unemployed && (
           <p className="mt-2">
-            <b> Hey! I am looking for new opportunities :)</b>
+            {/* <b> Hey! I am looking for new opportunities :)</b> */}
           </p>
         )}
         <Container className="py-0 my-0">
@@ -37,15 +37,14 @@ export default ({ data }) => {
           </h1>
           <p>
             <i>
-              {occupation} by day,&nbsp;
-              {dark ? `Imperial enforcer by night` : `Rebel scum by night`}
+              {occupation}
             </i>
           </p>
         </Container>
         <hr className="my-3 w-25" />
         <div className="d-md-inline-flex icons-container">
           <a
-            href="https://www.github.com"
+            href="https://github.com/hosseinnassiri"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -56,7 +55,7 @@ export default ({ data }) => {
             />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/hosseinnassiri/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -66,29 +65,7 @@ export default ({ data }) => {
               title="LinkedIn"
             />
           </a>
-          <a
-            href="https://www.freecodecamp.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon
-              icon={["fab", "free-code-camp"]}
-              className="icons fcc"
-              title="FreeCodeCamp"
-            />
-          </a>
-          <a
-            href="https://www.hackerrank.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon
-              icon={["fab", "hackerrank"]}
-              className="icons hr"
-              title="Hackerrank"
-            />
-          </a>
-          <a
+          {/* <a
             href="mailto:johndoe@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
@@ -98,7 +75,7 @@ export default ({ data }) => {
               className="icons mail"
               title="e-mail"
             />
-          </a>
+          </a> */}
           <a href="../../resume.pdf" target="_blank" download>
             <FontAwesomeIcon
               icon={["fas", "file-alt"]}

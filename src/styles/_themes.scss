@@ -154,6 +154,7 @@ $themes: (
   @include themify($themes) {
     background: themed("navBackground");
   }
+  margin:2px;
 }
 
 .icons:hover {

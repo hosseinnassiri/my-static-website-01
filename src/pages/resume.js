@@ -53,7 +53,7 @@ export const query = graphql`
             location
             position
             tags
-            startDate(formatString: "MMMM")
+            startDate(formatString: "MMMM, YYYY")
             endDate(formatString: "MMMM, YYYY")
           }
           fields {
@@ -64,7 +64,7 @@ export const query = graphql`
     }
     allFile(
       filter: {
-        extension: { eq: "png" }
+        extension: { in: ["png", "jpg"] }
         relativePath: { regex: "/company/" }
         relativeDirectory: { regex: "/content/work/" }
       }
