@@ -11,7 +11,7 @@ module.exports = {
     author: `Hossein Nassiri`,
     firstName: `Hossein`,
     lastName: `Nassiri`,
-    description: `Hossein Nassiri's personal site`,
+    description: `Hossein Nassiri's personal website`,
     occupation: `Software Architect`,
     keywords: [`Hossein`, `Nassiri`, `Personal`, `Blog`, `Resume`, `Projects`, `Work`],
     siteUrl:
